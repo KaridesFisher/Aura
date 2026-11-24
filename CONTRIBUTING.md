@@ -1,6 +1,16 @@
 # Contributing
 
-Aura is an early-stage native macOS project. Small, focused changes with clear reproduction steps are welcome.
+Aura is maintained by the repository owner. Repository write access is not granted automatically, and no outside collaborator is currently appointed.
+
+## Approval required
+
+Before starting a contribution, open an issue describing the proposed change and wait for the owner's explicit approval. A pull request is a proposal only: submitting one does not grant write access, membership, or acceptance. Only changes explicitly accepted and merged by the owner become part of this repository. Collaborator access requires a separate invitation from the owner; approval of a proposal does not grant that access.
+
+GitHub calculates contributor attribution from accepted commit history. It is separate from repository permissions and is not a membership application system.
+
+## Contribution checks
+
+For an approved proposal:
 
 1. Build and run the existing core checks with `./Scripts/check.sh`.
 2. Describe the problem, expected behavior and relevant verification in your change.
