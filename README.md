@@ -139,6 +139,10 @@ These are test values, not a working IPTV subscription. Before contributing, rea
 
 See the [full disclaimer](docs/DISCLAIMER.md). This notice does not remove rights or liabilities that applicable law does not allow to be excluded.
 
+## Application icon
+
+The project page and the built macOS application use the same Aura icon. The source artwork is [`Artwork/Aura.png`](Artwork/Aura.png); the app bundle uses [`Artwork/Aura.icns`](Artwork/Aura.icns), copied by the build script and selected by `Info.plist`.
+
 ## License & acknowledgments
 
 Aura source code is available under **[GNU GPL v3 or later](LICENSE)**. Media and third-party components retain their respective licenses; see [third-party notices](docs/THIRD-PARTY-NOTICES.txt).
