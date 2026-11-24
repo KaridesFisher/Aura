@@ -1,0 +1,67 @@
+Aura Player 1.0
+
+Aura source code is provided under GNU GPL version 3 or later. See GPL-3.0.txt.
+
+Playback libraries
+------------------
+libmpv and its transitive media libraries are from the official IINA v1.5.0
+universal macOS release. The IINA application executable, interface, branding,
+and updater are not part of Aura. Only redistributable media dylibs are used.
+
+Distribution artifact:
+https://github.com/iina/iina/releases/tag/v1.5.0
+SHA-256 of IINA.v1.5.0.dmg:
+8fad50479b10e09645053457cec46bd53d054ced2242cfe68f74586735a20dc7
+
+Upstream sources and build information:
+https://github.com/iina/iina
+https://github.com/iina/mpv
+https://github.com/mpv-player/mpv
+https://github.com/FFmpeg/FFmpeg
+https://github.com/iina/iina/wiki
+
+The dependency set includes FFmpeg, libass, libplacebo, libarchive, dav1d,
+SVT-AV1, fontconfig, FreeType, FriBidi, HarfBuzz, libbluray, libudfread, libjxl,
+libjpeg, Little CMS, LuaJIT, MuJS, Ogg/Vorbis, libwebp, libsoxr, libspeex,
+Rubber Band, uchardet, unibreak, zimg, zstd, Brotli and lz4. Each library
+retains its own upstream license. Relevant license families include GPL,
+LGPL, BSD, MIT and ISC. The bundled playback build is treated as GPL-compatible.
+Publishing a binary release requires preserving upstream notices and providing
+the corresponding source and build materials required by those licenses.
+
+The C adapter uses mpv's stable public ABI. Public API documentation:
+https://github.com/mpv-player/mpv/tree/master/include/mpv
+
+Example media
+-------------
+Sintel (2010), Big Buck Bunny (2008), Tears of Steel (2012), Elephants Dream
+(2006): Blender Foundation / Blender Studio and their respective teams.
+Films and derived stills are under Creative Commons Attribution 3.0.
+https://creativecommons.org/licenses/by/3.0/
+https://studio.blender.org/films/
+https://durian.blender.org/
+https://peach.blender.org/
+https://mango.blender.org/
+https://orange.blender.org/
+
+The Sintel trailer media content is bundled. The public source copy strips
+optional container metadata and creation timestamps; the encoded audio/video
+and attribution in these notices are preserved. The still image was extracted from
+the trailer. The other film links are public demo streams; availability can
+change. Big Buck Bunny HLS is hosted in Mux's public test-stream collection:
+https://test-streams.mux.dev/
+The live example is Apple's public HLS test stream, not a broadcast channel:
+https://developer.apple.com/streaming/examples/
+
+Mountain photograph: Unsplash, photo-1464822759023-fed622ff2c3b.
+https://images.unsplash.com/photo-1464822759023-fed622ff2c3b
+https://unsplash.com/license
+
+Service integration
+-------------------
+OpenSubtitles.com REST API is a separately operated service. Users provide
+their own API key/account. No service credentials are shipped in the app.
+https://opensubtitles.tawk.help/article/getting-started
+https://opensubtitles.stoplight.io/docs/opensubtitles-api
+
+Aura is independent of UHF and uses its own name, icon, layout and source code.

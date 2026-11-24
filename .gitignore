@@ -1,0 +1,36 @@
+# Generated build products and third-party binaries
+.build/
+.swiftpm/
+Dependencies/
+dist/
+*.app/
+*.dSYM/
+*.dylib
+*.zip
+*.dmg
+
+# Local state, accounts, credentials and recordings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+*.aura
+Aura-personal.json
+Application Support/
+Downloads/
+Recordings/
+Subtitles/
+*.log
+*.ips
+*.crash
+
+# Operating-system and editor metadata
+.DS_Store
+._*
+__MACOSX/
+.idea/
+.vscode/
