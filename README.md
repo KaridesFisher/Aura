@@ -1,6 +1,8 @@
 <div align="center">
   <img src="docs/assets/aura-banner.svg" alt="Aura — Your screen. Your rhythm. A native IPTV player for macOS." width="100%" />
   <br />
+  <img src="docs/assets/aura-app-icon.png" alt="Aura macOS application icon" width="96" height="96" />
+  <br /><br />
   <strong>macOS 14+ &nbsp; · &nbsp; Apple Silicon &nbsp; · &nbsp; SwiftUI &nbsp; · &nbsp; mpv &nbsp; · &nbsp; GPL-3.0-or-later</strong>
   <br /><br />
   <a href="#features">Features</a> &nbsp; / &nbsp;
